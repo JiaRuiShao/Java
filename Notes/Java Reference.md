@@ -26,9 +26,9 @@ default	|Specifies the default block of code in a switch statement
 exports	|Exports a package with a module. New in Java 9
 [extends](https://github.com/JiaRuiShao/Java/blob/master/Notes/16-Java%20Classes.md)	|Extends a class (indicates that a class is inherited from another class)
 [final](https://github.com/JiaRuiShao/Java/blob/master/Notes/16-Java%20Classes.md)	|A non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override)
-finally	Used with exceptions, a block of code that will be executed no matter if there is an exception or not
+finally	|Used with exceptions, a block of code that will be executed no matter if there is an exception or not
 [float](https://github.com/JiaRuiShao/Java/blob/master/Notes/5-Java%20Variables.md)	|A data type that can store whole numbers from 3.4e−038 to 3.4e+038
-for	Create a for loop
+[for](https://github.com/JiaRuiShao/Java/blob/master/Notes/12-Java%20Loop.mdhttps://github.com/JiaRuiShao/Java/blob/master/Notes/12-Java%20Loop.md)	|Create a for loop
 [if](https://github.com/JiaRuiShao/Java/blob/master/Notes/12-If..Else.md)	|Makes a conditional statement
 [implements](https://github.com/JiaRuiShao/Java/blob/master/Notes/25-Java%20Interface.md)	|Implements an interface
 [import](https://github.com/JiaRuiShao/Java/blob/master/Notes/20-Java%20Packages.md)	|Used to import a package, class or interface
@@ -38,7 +38,7 @@ instanceof	|Checks whether an object is an instance of a specific class or an in
 [long](https://github.com/JiaRuiShao/Java/blob/master/Notes/5-Java%20Variables.md)	|A data type that can store whole numbers from -9223372036854775808 to 9223372036854775808
 module	|Declares a module. New in Java 9
 native	|Specifies that a method is not implemented in the same Java source file (but in another language)
-new	Creates new objects
+new	|Creates new objects
 [package](https://github.com/JiaRuiShao/Java/blob/master/Notes/20-Java%20Packages.md)	|Declares a package
 [private](https://github.com/JiaRuiShao/Java/blob/master/Notes/18-Java%20Modifiers.md)	|An access modifier used for attributes, methods and constructors, making them only accessible within the declared class
 [protected](https://github.com/JiaRuiShao/Java/blob/master/Notes/18-Java%20Modifiers.md)	|An access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses
