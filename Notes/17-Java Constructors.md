@@ -21,6 +21,46 @@ public class MyClass {
 // Outputs 5
 ```
 
+```java
+public class Car {
+  public Car() {
+  //constructor method starts after curly brace
+
+    //instructions for creating a Car instance
+
+  }
+  //constructor method ends after curly brace
+
+  public static void main(String[] args) {
+
+    // program tasks
+
+  }
+}
+```
+
+We create instances by calling or invoking the constructor within `main()`. This example assigns an instance to the variable `ferrari`:
+
+```java
+public class Car {
+
+  public Car() {
+  }
+
+  public static void main(String[] args) {
+    /*
+    invoke a constructor using 
+    'new', the name, and parentheses:
+    new Car()
+    */
+    Car ferrari = new Car(); // call the constructor 
+    // Variables that reference an instance have a type of the class name.
+  }
+}
+```
+
+We invoke the constructor method: `Car()`, and use the keyword `new` to **indicate that we’re creating an instance**. Omitting `new` causes an error.
+
 **Note**:
 
 - The constructor name must match the class name, and it cannot have a return type (like `void`/`int`).
@@ -49,3 +89,9 @@ public class Car {
 ```
 
 
+**Review the order of the printed messages**:
+
+1. Running the program invokes `main()`
+2. We create an instance so we move from `main()` to `Store()`
+3. The code inside `Store()` runs
+4. When `Store()` finishes execution, we return to `main()`
