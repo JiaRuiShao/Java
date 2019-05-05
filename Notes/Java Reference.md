@@ -101,7 +101,7 @@ subSequence()	|Returns a new character sequence that is a subsequence of this se
 substring() |Extracts the characters from a string, beginning at a specified start position, and through the specified number of character	|String
 toCharArray()	|Converts this string to a new character array	|char[]
 [toLowerCase()](https://www.w3schools.com/java/ref_string_tolowercase.asp)	|Converts a string to lower case letters	|String
-toString()	|Returns the value of a String object	|String
+[toString()](https://github.com/JiaRuiShao/Java/blob/master/Notes/35-toString%20Method.md)	|Returns the value of a String object	|String
 [toUpperCase()](https://www.w3schools.com/java/ref_string_touppercase.asp)	|Converts a string to upper case letters	|String
 [trim()](https://www.w3schools.com/java/ref_string_trim.asp)	|Removes whitespace from both ends of a string |String
 valueOf()	|Returns the primitive value of a String object	|String
