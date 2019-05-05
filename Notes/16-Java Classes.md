@@ -16,7 +16,7 @@ public class MyClass {
 }
 ```
 
-Note: a class should always start with an uppercase first letter, and that the name of the java file should match the class name.
+**Note**: a class should always start with an uppercase first letter, and that the name of the java file should match the class name.
 
 2. **Create an Object**
 
@@ -180,7 +180,7 @@ public class MyClass {
 }
 ```
 
-Example:
+**Example**:
 
 ```java
 // Create a Car class
@@ -209,7 +209,7 @@ public class Car {
 
 ```
 
-Note: 
+**Note**: 
 
 - `main()` method, which is a built-in Java method that runs your program (any code inside main is executed).
 

@@ -3,6 +3,8 @@
 1. What is Java?
 > Java is a popular programming language, created in 1995.
 
+  This is object-oriented programming because programs are built around objects and their interactions. An object contains state and behavior.
+  
 > It is owned by Oracle, and more than 3 billion devices run Java.
 
 > It is used for:
