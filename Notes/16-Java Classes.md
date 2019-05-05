@@ -2,11 +2,44 @@
 
 ### I. Classes & Objects
 
-Java is an object-oriented programming language.
+Java is an object-oriented programming language. This is object-oriented programming because programs are built around objects and their interactions. An object contains state and behavior.
 
 Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has **attributes**, such as weight and color, and **methods**, such as drive and brake.
 
-A Class is like an object constructor, or a "blueprint" for creating objects.
+The fundamental concept of object-oriented programming is the class.
+
+A class is the set of instructions that describe how an instance can behave and what information it contains. 
+
+```java
+Here’s a definition of a Java class:
+
+public class Car {
+// scope of Car class starts after curly brace
+
+  public static void main(String[] args) {
+    // scope of main() starts after curly brace
+
+    // program tasks
+
+  }
+  // scope of main() ends after curly brace
+
+}
+// scope of Car class ends after curly brace
+```
+
+Let’s review with another example, a savings account at a bank.
+
+What should a savings account know?
+
+- The balance of money available.
+
+What should a savings account do?
+
+- Deposit money.
+- Withdraw money.
+
+！[1](https://s3.amazonaws.com/codecademy-content/courses/learn-java/revised-2019/diagram+of+an+object-02.png)
 
 1. **Create a Class**
 
@@ -18,7 +51,7 @@ public class MyClass {
 
 **Note**: a class should always start with an uppercase first letter, and that the name of the java file should match the class name.
 
-2. **Create an Object**
+2. **Create an Object** -———— instances of a class
 
 ```java
 public class MyClass {
